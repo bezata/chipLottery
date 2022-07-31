@@ -1,5 +1,5 @@
 # chipLottery
-<br>Its my nft auction project for dacade first i was tried roulette game but i couldn't made it so i changed it to lottery game.
+<br>Its my nft auction project for dacade first i was tried roulette game but i couldn't made it so i changed it to lottery game in ethereum blockchain.
 <br>Instructions: Open at REMIX IDE
 <br>First of all you should start the round: 
 <br>![round close on](https://user-images.githubusercontent.com/61169260/182045910-b9e73cf3-e444-432d-bec2-49e7cb37807d.png)

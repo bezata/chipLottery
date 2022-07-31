@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/roulettechecker.sol": "RouletteChecker"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/roulettechecker.sol": {
+			"keccak256": "0x567f9a73ba8862db8aa04b9f5505857d4fa778ee307e06def3df14b99dd3b95e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d7fe9c105d37ed6f253eb3d2d77e08957c5fe27218a349bf12a49433d1f6b1f",
+				"dweb:/ipfs/QmX6s1TyihA3jxRQ6Z3iSsVuBGN2QLdR838zjgNUvn4iov"
+			]
+		}
+	},
+	"version": 1
+}

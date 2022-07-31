@@ -72,7 +72,6 @@ contract chipLottery is ERC721,Ownable{
     function checkWinner() public onlyOwner {
         uint index = getRandomNumber() % players.length;
         walletChecker[players[index]]++;
-        //players[index].transfer(address(this).balance);
         betHistory[betID] = players[index];
         betID++;
     }

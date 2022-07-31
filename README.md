@@ -3,7 +3,7 @@
 <br>Instructions: Open at REMIX IDE
 <br>First of all you should start the round: 
 <br>![round close on](https://user-images.githubusercontent.com/61169260/182045910-b9e73cf3-e444-432d-bec2-49e7cb37807d.png)
-<br>Second: You should buy chips
+<br>Second: You should buy chips that interaction mint the NFT
 <br>![buychips](https://user-images.githubusercontent.com/61169260/182045934-347a5a8e-bb4e-4dc4-80fb-24731cea78e6.png)
 <br>Third:You should enterthelottery 
 <br>![enterthelottery](https://user-images.githubusercontent.com/61169260/182045942-48658d58-bcf1-4692-b796-5d8497a8b8f6.png)

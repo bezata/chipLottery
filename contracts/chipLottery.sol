@@ -39,8 +39,6 @@ contract chipLottery is ERC721,Ownable{
     function buyChips() public payable{
         require(msg.value != chipsPrice,'Insufficient balance');
         require(maxChipChecker > rouletteChips,'All chips sold');
-        require(walletChecker[msg.sender] < 1 ,'You can only buy one chip');
-
         uint256 tokenId = rouletteChips;
         _safeMint(msg.sender,tokenId);
         walletChecker[msg.sender]++;
@@ -61,13 +59,12 @@ contract chipLottery is ERC721,Ownable{
     // joining the lottery
     function enterthelottery() public payable {
         require(walletChecker[msg.sender] > 0,'Insufficient balance sry!');
-        walletChecker[msg.sender]--;
         require(startRound, 'Round not started');
     // players adress entering the lottery
         players.push(payable(msg.sender));
     }
     //Random number function
-    function getRandomNumber() internal view returns (uint) {
+    function getRandomNumber() public view returns (uint) {
         return uint(keccak256(abi.encodePacked(block.timestamp,block.difficulty,players.length,betHistory[betID])));
     }
     // Picking winner

@@ -67,7 +67,7 @@ contract chipLottery is ERC721,Ownable{
         players.push(payable(msg.sender));
     }
     //Random number function
-    function getRandomNumber() public view returns (uint) {
+    function getRandomNumber() internal view returns (uint) {
         return uint(keccak256(abi.encodePacked(block.timestamp,block.difficulty,players.length,betHistory[betID])));
     }
     // Picking winner

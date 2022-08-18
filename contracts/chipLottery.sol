@@ -17,7 +17,7 @@ contract chipLottery is Ownable,VRFConsumerBaseV2,ERC721{
     uint64 s_subscriptionId;
     uint256[] public s_randomWords;
     uint256 public s_requestId;
-    uint256 public winningNumber;
+    uint256 private winningNumber;
     address s_owner;
     address public owners;
     uint256 chipsPrice = 0.001 ether;

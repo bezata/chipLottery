@@ -13,6 +13,5 @@
 <br>![Adsssız](https://user-images.githubusercontent.com/61169260/185411963-d0bdcfe4-a5e3-42ab-b85c-bb8a3bb2c0ec.png)
 <br>and for final you can check the winner
 <br>![checkwinner](https://user-images.githubusercontent.com/61169260/182045963-1c76e57e-0a99-4d60-b87b-1562466ca4ab.png)
-<br>Also there will be more interactions like balance or players
 <br> P.S. I changed my random number function to Chainlink VRF you can check how to use in here: https://docs.chain.link/docs/chainlink-vrf/
 

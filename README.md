@@ -9,6 +9,10 @@
 <br>![buychips](https://user-images.githubusercontent.com/61169260/182045934-347a5a8e-bb4e-4dc4-80fb-24731cea78e6.png)
 <br>Third:You should enterthelottery 
 <br>![enterthelottery](https://user-images.githubusercontent.com/61169260/182045942-48658d58-bcf1-4692-b796-5d8497a8b8f6.png)
+<br>Fourth: Pick the number
+<br>![Adsssız](https://user-images.githubusercontent.com/61169260/185411963-d0bdcfe4-a5e3-42ab-b85c-bb8a3bb2c0ec.png)
 <br>and for final you can check the winner
 <br>![checkwinner](https://user-images.githubusercontent.com/61169260/182045963-1c76e57e-0a99-4d60-b87b-1562466ca4ab.png)
 <br>Also there will be more interactions like balance or players
+<br> P.S. I changed my random number function to Chainlink VRF you can check how to use in here: https://docs.chain.link/docs/chainlink-vrf/
+

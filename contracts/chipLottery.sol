@@ -48,7 +48,7 @@ contract chipLottery is Ownable,VRFConsumerBaseV2,ERC721{
     );
   }
     function fulfillRandomWords(uint256, uint256[] memory randomWords) internal override{
-      winningNumber = (randomWords[0] % 4) + 1;
+      winningNumber = randomWords[0] % 4;
   }
     //Starting the round
     function RoundStarter() public onlyOwner{
